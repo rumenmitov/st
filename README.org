@@ -26,7 +26,6 @@ All of these steps are inside the *st* directory.
   # Difftool to apply changes to the user config
   nvim -d config.h config.def.h
 
-  # Rebuild and restart dwm
+  # Rebuild
   sudo make clean install
-  pkill dwm
 #+end_src
