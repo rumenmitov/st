@@ -1,0 +1,6 @@
+CompileFlags:
+  Add:
+    - -std=gnu99
+    - -xc
+    - -D_XOPEN_SOURCE=600
+    - -DVERSION=""
