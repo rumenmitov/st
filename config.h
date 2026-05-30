@@ -245,6 +245,7 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Down,        kscrolldown,    {.i = -1} },
 	{ MODKEY,               XK_v,           kscrollup,      {.i = -1} },
 	{ MODKEY|ControlMask,   XK_v,           kscrolldown,    {.i = -1} },
+  { ShiftMask,            XK_Return,      ttysend,        {.s = "\033[13;2u"} },
 };
 
 /*
